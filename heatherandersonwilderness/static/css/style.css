@@ -1,0 +1,127 @@
+body {
+	width: 100%;
+    background: rgb(50,100,200);
+	display: flex;
+	flex-direction: column;
+	font-family: cambria;
+	color: #ddd;
+}
+.header {
+	width: 100vw;
+	position: fixed;
+	margin: -8px 0 0 -8px;
+	background-color: #ddf;
+	color: #444;
+	padding: 10px 0 10px 0;
+}
+#top {
+	height: 135px;
+}
+h1 {
+	font-size: 28pt;
+	margin: 0 20px 5px 20px;
+}
+h2 {
+	font-size: 20pt;
+	margin: 0 20px 8px 50px;
+}
+h3 {
+	font-size: 18pt;
+	margin: 15px 20px 10px 50px;
+}
+h4 {
+	font-size: 14pt;
+	margin: 0 20px 5px 50px;
+}
+h5 {
+	font-size: 12pt;
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+p {
+	font-size: 14pt;
+	margin: 10px 0px 10px 0;
+}
+#float {
+	float: right;
+	width: 300px;
+	text-align: center;
+}
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin: 15px 30px 25px 30px;
+}
+#foot p {
+	margin: 8px 10px 8px 10px;
+}
+.footer img {
+	height: 150px;
+}
+#foot {
+	min-height: 150px;
+	width: 500px;
+	text-align: center;
+}
+.park {
+	display: flex;
+	margin: 0 0 10px 30px;
+	flex-wrap: wrap;
+}
+.painting {
+	margin: 0 30px 0 0 ;
+}
+img, a {
+	height: 200px;
+}
+@media screen and (max-width: 1066px) {
+	#top {
+		height: 165px;
+	}
+}
+@media screen and (max-width: 920px) {
+	#top {
+		height: 187px;
+	}
+}
+@media screen and (max-width: 728px) {
+	#top {
+		height: 230px;
+	}
+}
+@media screen and (max-width: 579px) {
+	#top {
+		height: 261px;
+	}
+}
+@media screen and (max-width: 511px) {
+	#top {
+		height: 283px;
+	}
+}
+@media screen and (max-width: 422px) {
+	#top {
+		height: 314px;
+	}
+}
+@media screen and (max-width: 404px) {
+	#top {
+		height: 357px;
+	}
+}
+@media screen and (max-width: 374px) {
+	#top {
+		height: 379px;
+	}
+}
+@media screen and (max-width: 363px) {
+	#top {
+		height: 410px;
+	}
+}
+@media screen and (max-width: 354px) {
+	#top {
+		height: 453px;
+	}
+}
